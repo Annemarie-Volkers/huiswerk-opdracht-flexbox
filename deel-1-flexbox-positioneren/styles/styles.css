@@ -14,9 +14,11 @@
 
 }
 /*!*opdracht 2**/
+
 .opdracht-2 ul{
     display: flex;
     flex-direction: row;
+    font-style: normal;
 }
 .opdracht-2 ul li{
     flex-basis: 33%;
@@ -29,21 +31,47 @@
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    height: 100%;
+    height: 150px;
 }
-
-.top-left{
-
+.opdracht-3 .item-1{
+    align-self: flex-start;
 }
-
-.centered{
-
+.opdracht-3 .item-2{
+    align-self: center;
 }
-
-.bottom{
-
+.opdracht-3 .item-3{
+    align-self: flex-end;
 }
 /*!*opdracht 4**/
-.opdracht-4{
 
+.opdracht-4 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+
+}
+
+/*!*opdracht 5**/
+
+.opdracht-5{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    /*flex-direction: row;*/
+}
+.opdracht-5 .opdracht-5-column{
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.opdracht-5 .opdracht-5-column .ul-1{
+    border: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
 }
