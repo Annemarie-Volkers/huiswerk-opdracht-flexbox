@@ -1,1 +1,49 @@
 /*Schrijf hier jouw CSS*/
+/*Schrijf hier jouw CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /*!*opdracht 1*/
+}
+.opdracht-1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/*!*opdracht 2**/
+.opdracht-2 ul{
+    display: flex;
+    flex-direction: row;
+}
+.opdracht-2 ul li{
+    flex-basis: 33%;
+    flex-direction:row;
+}
+
+/*!*opdracht3**/
+
+.opdracht-3 ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.top-left{
+
+}
+
+.centered{
+
+}
+
+.bottom{
+
+}
+/*!*opdracht 4**/
+.opdracht-4{
+
+}
