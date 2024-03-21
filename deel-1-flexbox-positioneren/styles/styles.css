@@ -56,22 +56,37 @@
 
 .opdracht-5{
     display: flex;
-    /*flex-wrap: wrap;*/
-    /*flex-direction: column;*/
-    /*justify-content: space-around;*/
-    /*flex-direction: row;*/
+    flex-wrap: wrap;
 }
 .opdracht-5 .opdracht-5-column{
-    border: solid red;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: stretch;
+    flex-grow: 1;
+
 }
+
 .opdracht-5 .opdracht-5-column .ul-1{
-    border: solid red;
+    /*border: solid red;*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start;
+}
+.opdracht-5 .opdracht-5-column .ul-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.opdracht-5-column .ul-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
 }
