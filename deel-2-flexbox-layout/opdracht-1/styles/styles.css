@@ -1,1 +1,83 @@
 /*Schrijf hier jouw CSS*/
+/*!*css resest*!*/
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  border: solid darkred;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+.main-midden{
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  border: solid red;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  /*flex-direction: row;*/
+  /*align-self: flex-end;*/
+
+
+}
+
+.header{
+  border: orangered;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 120px;
+  text-align: left;
+
+}
+.article{
+  border: orange;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  flex-grow: 2;
+  flex-shrink: 0;
+
+}
+
+.nav{
+  border: indianred;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  /*justify-items: flex-end;*/
+
+}
+
+.aside{
+  border: solid chocolate;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  flex: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+
+
+}
+
+footer{
+  border: solid darkorchid;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 120px;
+}
